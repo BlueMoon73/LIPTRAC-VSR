@@ -1,0 +1,14 @@
+max frame count: 154.0 , index: 4207
+longest video: A:\Lip Reading\Potential Datasets\BBC LRS2\allFiles\5682340946807479970_00031.mp4
+max char count: 99 , index: 510
+longest text: A:\Lip Reading\Potential Datasets\BBC LRS2\allFiles\5540854416155721607_00004.txt
+====================================================================================================
+min frame count: 13.0 , index: 13851
+shortest video: A:\Lip Reading\Potential Datasets\BBC LRS2\allFiles\5961444672074006409_00018.mp4
+min char count: 15 , index: 32
+shortest text: A:\Lip Reading\Potential Datasets\BBC LRS2\allFiles\5535496873950688380_00032.txt
+====================================================================================================
+total num of frames: 1747153
+avg num of frames:  54.222962732274475
+avg chars per vid: 36.274327831412855
+most common number of  frames: 31.0
