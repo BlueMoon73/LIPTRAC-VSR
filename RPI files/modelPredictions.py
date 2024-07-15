@@ -33,7 +33,7 @@ def padTensor(tensor, target_shape, padding_value=0):
   pad_width = [(0, max(target_shape[i] - tensor.shape[i], 0)) for i in range(len(target_shape))]
   return np.pad(tensor, pad_width, mode='constant', constant_values=padding_value)
 
-def makePrediction(vidPath):
+def makePrediction(vidPath, isLipVid=False):
     # vid processing 
     inputVid = loadVideo(vidPath)
     paddedVid  = padTensor(inputVid, target_shape = (290, 40, 120, 1))
@@ -60,5 +60,5 @@ interpreter = tf.lite.Interpreter(model_path="GDRIVE/finalModelCUSTOM.tflite")
 interpreter.allocate_tensors()
 
 
-# path = "../lipreading/GDRIVE/customVids/5570920046221178499_00015.mp4"
-# print(makePrediction(path))
+path = "../lipreading/GDRIVE/customVids/5570920046221178499_00015.mp4"
+print(makePrediction(path))
