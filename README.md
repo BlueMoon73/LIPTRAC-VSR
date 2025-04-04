@@ -45,10 +45,12 @@ The model is a hybrid architecture that consists of both 3D convolutional and re
 *   **GRU Layers**: Gated Recurrent Unit layers to model the temporal context of lip movements.
 *   **CTC Loss**: A method for connecting the model to a text output.
 
-*   ## Future Work
+## Future Work
 
 
 *   **Improved Robustness:** To add to its use in the real world, try improving the model to deal with noisy data, such as different lighting conditions, different video angles, and backgrounds.
 *   **Multilingual Capability**: Develop the model to perform in languages beyond English.
 *   **N-Gram Implementation**: To predict sequences of words utilizing context, in a similar fashion to "Autocorrect" on your phone. 
-* Implement the technology in a variety of different types of software.
+
+## Contact 
+Portfolio: [Get in touch!](https://monishsaravana.com/)
